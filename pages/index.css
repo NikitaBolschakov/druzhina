@@ -43,6 +43,7 @@
 @import url(../blocks/schedule/__container/schedule__container.css);
 @import url(../blocks/schedule/__day/schedule__day.css);
 @import url(../blocks/schedule/__time/schedule__time.css);
+@import url(../blocks/schedule/__age/schedule__age.css);
 
 @import url(../blocks/coaches/coaches.css);
 @import url(../blocks/coaches/__title/coaches__title.css);
@@ -59,6 +60,7 @@
 @import url(../blocks/contacts/__text/contacts__text_l.css);
 @import url(../blocks/contacts/__text/contacts__text_s.css);
 @import url(../blocks/contacts/__map/contacts__map.css);
+@import url(../blocks/contacts/__text/_link/contact__text_link.css);
 
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);

@@ -1,9 +1,9 @@
 .photo-grid__container {
     display: grid;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0 16px;
     grid-template-columns: repeat(1, 1fr);
-    gap: 5px;
+    gap: 16px;
 }
 
 @media (min-width: 768px) {
