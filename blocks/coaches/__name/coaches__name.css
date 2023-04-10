@@ -1,0 +1,24 @@
+.coaches__name {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 32px;
+    margin: 0 0 16px;
+}
+
+@media (min-width: 768px) {
+    .coaches__name {
+        max-width: 720px;
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0 0 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .coaches__name {
+        max-width: 690px;
+        font-size: 32px;
+        line-height: 32px;
+        margin: 0 0 42px;
+    }
+}

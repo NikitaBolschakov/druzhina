@@ -1,0 +1,30 @@
+.intro__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 33px 70px;
+}
+
+.intro__text:last-child {
+    margin: 0 0 33px 70px;
+}
+
+@media (min-width: 768px) {
+    .intro__text {
+        max-width: 720px;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0 0 33px 70px;
+    }
+
+    .intro__text:last-child {
+        margin: 0 0 0 70px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro__text {
+        max-width: 690px;
+    }
+}
+

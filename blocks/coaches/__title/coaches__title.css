@@ -1,0 +1,28 @@
+.coaches__title {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 64px;
+    margin: 0 0 32px 16px;
+    text-rendering: optimizeLegibility;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .coaches__title {
+        font-size: 34px;
+        line-height: 64px;
+        margin: 0 0 48px;
+        grid-area: title;
+        margin: 0 0 24px;
+        text-align: end;
+    }
+}
+
+@media (min-width: 1024px) {
+    .coaches__title {
+        font-size: 54px;
+        line-height: 104px;
+        margin: 0 0 32px 16px;
+    }
+}

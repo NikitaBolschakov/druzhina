@@ -1,0 +1,26 @@
+.coaches {
+    min-width: 288px;
+    color: rgb(0, 0, 0);
+    margin: 64px 16px;
+}
+
+@media (min-width: 768px) {
+    .coaches {
+        min-width: 720px;
+        margin: 70px 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .coaches {
+        max-width: 1184px;
+        margin: 80px 48px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .coaches {
+        margin: 92px auto;
+        max-width: 1184px;
+    }
+}

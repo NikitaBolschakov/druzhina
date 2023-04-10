@@ -1,0 +1,26 @@
+.schedule__text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 33px;
+}
+
+.schedule__text:nth-child(3) {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .schedule__text {
+        max-width: 720px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .schedule__text {
+        max-width: 690px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}

@@ -1,0 +1,26 @@
+.contacts {
+    min-width: 288px;
+    color: rgb(0, 0, 0);
+    margin: 24px 16px;
+}
+
+@media (min-width: 768px) {
+    .contacts {
+        min-width: 720px;
+        margin: 70px 24px 42px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contacts {
+        max-width: 1184px;
+        margin: 80px 48px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .contacts {
+        margin: 92px auto;
+        max-width: 1184px;
+    }
+}

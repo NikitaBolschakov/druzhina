@@ -1,0 +1,12 @@
+.lead {
+    min-width: 320px;
+    color: white;
+    min-height: 480px;
+}
+
+@media (min-width: 768px) {
+    .lead {
+        min-width: 320px;
+        color: white;
+    }
+}

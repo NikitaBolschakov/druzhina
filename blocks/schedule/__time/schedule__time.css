@@ -1,0 +1,23 @@
+.schedule__time {
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 34px;
+    margin: 0 0 33px;
+}
+
+@media (min-width: 768px) {
+    .schedule__time {
+        font-weight: 300;
+        max-width: 720px;
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .schedule__time {
+        max-width: 690px;
+        font-size: 34px;
+        line-height: 34px;
+    }
+}

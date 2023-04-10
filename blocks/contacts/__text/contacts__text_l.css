@@ -1,0 +1,31 @@
+.contacts__text_l {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 8px;
+}
+
+/* .contacts__text_l:nth-child(2) {
+    margin-bottom: 60px;
+} */
+
+@media (min-width: 768px) {
+    .contacts__text_l {
+        max-width: 720px;
+        min-width: 254px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .contacts__text_l:nth-child(2) {
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contacts__text_l {
+        max-width: 690px;
+        font-size: 24px;
+        line-height: 34px; 
+    }
+}

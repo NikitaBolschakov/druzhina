@@ -1,0 +1,16 @@
+.coaches__img {
+    max-width: 200px;
+}
+
+@media (min-width: 768px) {
+    .coaches__img {
+        max-width: 260px;
+        padding-left: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .coaches__img {
+        max-width: 310px;
+    }
+}

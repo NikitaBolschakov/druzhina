@@ -1,0 +1,33 @@
+.schedule {
+    display: flex;
+    flex-direction: column;
+    min-width: 288px;
+    color: rgb(0, 0, 0);
+    margin: 64px 16px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .schedule {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: start;
+        min-width: 720px;
+        margin: 70px 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .schedule {
+        max-width: 1184px;
+        margin: 80px 48px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .schedule {
+        margin: 92px auto;
+        max-width: 1184px;
+    }
+}
