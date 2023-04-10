@@ -2,12 +2,12 @@
     background-color: rgba(42, 44, 47, 0.3);
     min-width: 100%;
     transition: 2s;
-    min-height: 480px;
+    min-height: 600px;
 }
 
 @media (min-width: 768px) {
     .cover__overlay {
-        min-height: 480px;
+        min-height: 640px;
     }
 }
 
