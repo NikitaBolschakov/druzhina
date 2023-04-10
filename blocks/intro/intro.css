@@ -3,11 +3,13 @@
     color: rgb(0, 0, 0);
     margin: 24px 16px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 @media (min-width: 768px) {
     .intro {
+        flex-direction: row;
+        justify-content: space-between;
         min-width: 720px;
         margin: 70px 24px;
     }

@@ -1,0 +1,18 @@
+.header__number {
+    display: block;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    margin: 8px 0px 8px 18px;
+    text-decoration-line: none;
+}
+
+@media (min-width: 640px) {
+    .header__number {
+        display: none;
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0 0 0 28px;
+    }
+}
