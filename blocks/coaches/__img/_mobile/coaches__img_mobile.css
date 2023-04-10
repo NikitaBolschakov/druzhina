@@ -1,0 +1,11 @@
+.coaches__img_mobile {
+    max-width: 100%;
+    list-style-type: none;
+    margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+    .coaches__img_mobile {
+        display: none;
+    }
+}

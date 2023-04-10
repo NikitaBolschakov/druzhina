@@ -2,7 +2,8 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 26px;
-    margin: 0 0 33px;
+    margin: 0;
+    margin-bottom: 12px;
 }
 
 .schedule__text:nth-child(3) {

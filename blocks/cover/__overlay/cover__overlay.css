@@ -2,7 +2,7 @@
     background-color: rgba(42, 44, 47, 0.3);
     min-width: 100%;
     transition: 2s;
-    min-height: 600px;
+    min-height: 612px;
 }
 
 @media (min-width: 768px) {

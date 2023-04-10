@@ -6,7 +6,7 @@
 }
 
 .intro__text:last-child {
-    margin: 0 0 33px;
+    margin: 0;
 }
 
 @media (min-width: 768px) {

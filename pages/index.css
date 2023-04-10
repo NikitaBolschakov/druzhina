@@ -34,6 +34,8 @@
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__title/photo-grid__title.css);
+@import url(../blocks/photo-grid/__container/photo-grid__container.css);
 
 @import url(../blocks/schedule/schedule.css);
 @import url(../blocks/schedule/__title/schedule__title.css);
@@ -48,6 +50,7 @@
 @import url(../blocks/coaches/__img/coaches__img.css);
 @import url(../blocks/coaches/__text/coaches__text.css);
 @import url(../blocks/coaches/__name/coaches__name.css);
+@import url(../blocks/coaches/__img/_mobile/coaches__img_mobile.css);
 
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contacts/__title/contacts__title.css);
@@ -61,6 +64,7 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link/_mobile/footer__link_mobile.css);
 
 
 
